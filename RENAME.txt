@@ -1,0 +1,30 @@
+# XRD Pattern Classification using Machine Learning
+
+This project demonstrates a simple machine learning approach to classify crystal structures based on simulated X-ray diffraction (XRD) patterns.
+
+## Overview
+X-ray diffraction patterns contain structural information about crystalline materials. In this project, synthetic XRD data is generated and used to train a classification model.
+
+## Methods
+- Simulated XRD patterns using Gaussian peak approximation
+- Introduced noise and peak variations to mimic real measurements
+- Generated dataset for three crystal phases
+- Trained a Random Forest classifier using scikit-learn
+
+## Results
+- Achieved high classification accuracy (~100%)
+- Evaluated performance using confusion matrix
+
+## Tools & Technologies
+- Python
+- NumPy
+- Matplotlib
+- scikit-learn
+
+## Future Work
+- Apply model to real XRD datasets
+- Extend to more complex structures
+- Integrate deep learning approaches
+
+## Author
+Mohammad Altawalbeh
